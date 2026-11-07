@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Riyanshi Chauhan | Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a href="#home" class="logo">Riyanshi</a>
+  <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">☰</button>
+  <nav id="navLinks">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <div class="hero-text">
+    <p class="hello">Hi, I'm</p>
+    <h1>Riyanshi Chauhan</h1>
+    <h2>I build <span id="typing"></span><span class="cursor">|</span></h2>
+    <p class="lead">B.Tech CSE student and frontend developer who loves turning ideas into clean, responsive websites.</p>
+    <div class="btns">
+      <a href="#projects" class="btn primary">View my work</a>
+      <a href="#contact" class="btn ghost">Contact me</a>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section reveal">
+  <h2 class="title">About me</h2>
+  <div class="about-grid">
+    <div class="avatar">RC</div>
+    <p>
+      I'm Riyanshi Chauhan, a B.Tech Computer Science and Engineering student at
+      CSJM University. I enjoy building user-friendly interfaces with HTML, CSS
+      and JavaScript. I have built a website called ContentDen, and I'm currently
+      doing a frontend internship where I'm working on projects like a calculator
+      and a music player.
+    </p>
+  </div>
+</section>
+
+<section id="skills" class="section reveal">
+  <h2 class="title">Skills</h2>
+  <div class="skills">
+    <div class="skill"><span>HTML</span><div class="bar"><i style="--w:90%"></i></div></div>
+    <div class="skill"><span>CSS</span><div class="bar"><i style="--w:85%"></i></div></div>
+    <div class="skill"><span>JavaScript</span><div class="bar"><i style="--w:75%"></i></div></div>
+    <div class="skill"><span>Git &amp; GitHub</span><div class="bar"><i style="--w:70%"></i></div></div>
+    <div class="skill"><span>Responsive design</span><div class="bar"><i style="--w:80%"></i></div></div>
+  </div>
+</section>
+
+<section id="projects" class="section reveal">
+  <h2 class="title">Projects</h2>
+  <div class="cards">
+    <article class="card">
+      <div class="thumb t1">📝</div>
+      <h3>ContentDen</h3>
+      <p>A website I designed and built to share and explore content, with a clean and responsive layout.</p>
+      <a href="https://github.com/chauhanriyanshi165-prog" target="_blank">View project</a>
+    </article>
+    <article class="card">
+      <div class="thumb t2">🧮</div>
+      <h3>Calculator</h3>
+      <p>Scientific calculator with history, memory keys and keyboard support, built with HTML, CSS and JavaScript.</p>
+      <a href="https://github.com/chauhanriyanshi165-prog" target="_blank">View project</a>
+    </article>
+  </div>
+</section>
+
+<section id="resume" class="section reveal">
+  <h2 class="title">Resume</h2>
+  <div class="timeline">
+    <div class="item">
+      <h3>Frontend Development Intern</h3>
+      <span>2026 - Present</span>
+      <p>Building web projects using HTML, CSS and JavaScript.</p>
+    </div>
+    <div class="item">
+      <h3>B.Tech in Computer Science and Engineering</h3>
+      <span>CSJM University</span>
+      <p>Learning programming, data structures and web development.</p>
+    </div>
+  </div>
+  <a href="resume.pdf" download class="btn primary">Download resume</a>
+</section>
+
+<section id="contact" class="section reveal">
+  <h2 class="title">Contact</h2>
+  <div class="contact-grid">
+    <div class="info">
+      <p>📧 <a href="mailto:chauhanriyanshi165@gmail.com">chauhanriyanshi165@gmail.com</a></p>
+      <p>🎓 CSJM University, Kanpur</p>
+      <p>
+        <a href="https://github.com/chauhanriyanshi165-prog" target="_blank">GitHub</a> ·
+        <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-ID" target="_blank">LinkedIn</a>
+      </p>
+    </div>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your name" required>
+      <input type="email" id="email" placeholder="Your email" required>
+      <textarea id="message" rows="4" placeholder="Your message" required></textarea>
+      <button type="submit" class="btn primary">Send message</button>
+      <p id="formMsg"></p>
+    </form>
+  </div>
+</section>
+
+<footer>© 2026 Riyanshi Chauhan. All rights reserved.</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
